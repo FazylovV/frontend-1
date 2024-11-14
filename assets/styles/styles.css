@@ -1,0 +1,139 @@
+.landing {
+    display: flex;
+    flex-direction: column;
+    background-color: #F8F8F8;
+    justify-content: space-between;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    padding: 64px;
+    font-family: Lato;
+}
+
+.upper-side {
+    display: flex;
+    flex-direction: row;
+    padding-top: 101px;
+    margin-right: 43px;
+}
+
+.content {
+    width: 694px;
+    height: 490px;
+}
+
+.content__title {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 86.4px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.title--right {
+    padding-left: 64px;
+}
+
+.title--padding-bottom {
+    margin-bottom: 16px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    width: 681px; 
+    height: 250px;
+    margin-top: 32px;
+    opacity: 0px;
+
+}
+
+.form__rect {
+    background-color: #06040A;
+    width: 24.8px;
+    height: 250px;
+}
+
+.description {
+    flex-direction: column;
+    padding-left: 32px;
+}
+
+.description__text {
+    gap: 24px;
+    opacity: 0px;
+
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.description__button {
+    width: 222px;
+    padding: 24px 56px 24px 56px;
+    gap: 10px;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 32px;
+    background: #06040A;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.upper-side__hero-image {
+    position: absolute;
+    width: 615px;
+    height: 440.28px;
+    top: 222px;
+    left: 736px;
+}
+
+.upper-side__font-circle {
+    position: absolute;
+    width: 130.38px;
+    height: 130.54px;
+    top: 128px;
+    left: 1222px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    width: 1,308px;
+    height: 229px;
+}
+
+.card {
+    width: 327px;
+    padding: 48px 36px 48px 36px;
+    gap: 8px;
+    opacity: 0px;
+}
+
+.card__title {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+}
+
+.card__text {
+    margin-top: 16px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.6px;
+    text-align: left;
+}
+
+.card--white {
+    background: #FFFFFF;
+}
+
+.card--blue {
+    background: #E2E7F1;
+}
