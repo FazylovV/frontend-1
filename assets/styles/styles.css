@@ -3,7 +3,11 @@
     flex-direction: column;
     background-color: #F8F8F8;
     justify-content: space-between;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     width: 1440px;
     height: 1024px;
     padding: 64px;
@@ -68,7 +72,7 @@
     font-weight: 400;
 }
 
-.description__button {
+.button {
     width: 222px;
     padding: 24px 56px 24px 56px;
     gap: 10px;
